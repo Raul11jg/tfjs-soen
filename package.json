@@ -1,4 +1,5 @@
 {
+  "name": "tfjs-soen",
   "devDependencies": {
     "@bazel/bazelisk": "^1.12.0",
     "@bazel/buildifier": "6.1.0",
