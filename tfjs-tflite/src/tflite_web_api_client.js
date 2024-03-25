@@ -20,6 +20,6 @@
 // typescript code. To workaround this issue, we import and re-export it in this
 // file to essentially convert it to a valid CommonJS module, which can then be
 // imported correctly by typescript code.
-var tfliteWebApiClient = require('../wasm/tflite_web_api_client.js');
+var tfliteWebApiClient = require('tflite_web_api_client.js');
 
 exports.tfweb = tfliteWebApiClient.tfweb;
